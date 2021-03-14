@@ -1658,7 +1658,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: 16px;
 }
 
 .text-justify {
@@ -1861,6 +1862,10 @@ blockquote {
     margin: 0 0 20px;
     font-size: 17.5px;
     border-left: 5px solid #eee
+}
+
+/*new*/ blockquote.citation {
+    border-left: none;
 }
 
 blockquote ol:last-child,
