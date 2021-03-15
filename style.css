@@ -654,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 /*new*/p.citation__paragraphe {
@@ -797,9 +797,11 @@ h4 {
     color: #F3976C!important;
 }
 
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
+    color: #1c2a43!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -848,7 +850,7 @@ h4 {
     display: flex;
     justify-content: center;
     margin: 70px 0 45px;
-    color: #F3976C!important;
+    color: #D91E18!important;/* #F3976C!important;*/
     font-weight: bold;
 }
 
@@ -856,7 +858,7 @@ h4 {
     display: flex;
     justify-content: center;
     margin: 0px 0 45px 0;
-    color: #F3976C!important;
+    color: #D91E18!important;/*#F3976C!important;*/
     font-weight: bold;
 }
 /*new*/p.portfolio-paragraphe {
@@ -878,7 +880,17 @@ h4 {
 }
 
 /*new*/.cta__paragraphe {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .02);
+}
+
+/*new*/.bannière h1 {
+    color: #fff!important;
+}
+
+/*new*/.contactWhite {
+    color: #fff!important;
 }
 
 /*new*/ section.lieu__container {
@@ -924,7 +936,7 @@ h4 {
 }
 
 /*new*/ .lieu__mail {
-    color: #F3976C!important;
+    color: #D91E18!important;/*#F3976C!important;*/
 }
 
 /*new*/ .row.form {
@@ -936,10 +948,13 @@ h4 {
     text-align: center;
     margin-bottom: 50px;
     font-size: 20px;
-    color: #F3976C!important;
+    color: #D91E18!important;/*#F3976C!important;*/
     font-weight: bold;
 }
 
+/*new*/ .agence {
+    color: black!important;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
