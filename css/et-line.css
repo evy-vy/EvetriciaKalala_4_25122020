@@ -231,7 +231,7 @@
 }
 
 .et-icon-edit:before {
-    content: "\e01c"
+    content: "\e01c";
 }
 
 .et-icon-adjustments:before {
