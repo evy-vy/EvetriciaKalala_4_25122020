@@ -665,18 +665,19 @@ a {
 }
 
 /*new*/p.citation__paragraphe {
-    font-size: 19px;
+    font-size: 22px;
     font-style: oblique;
-    color: rgba(0, 0, 0, .02);
     font-weight: 400;
     text-align: center;
     display: flex;
-}
+    margin: 0 18%;
+    }
 
 /*new*/figcaption.citation__name {
     text-align: center;
     font-size: 15px;
-color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, .7);
+    margin-top: -25px;
 }
 
 .container {
@@ -807,6 +808,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine:hover {
@@ -870,12 +872,14 @@ h4 {
     font-size: 18px;
 }
 
-/*new*/#expertise {
+/*new*/.expertise {
+    font-size: 19px;
     margin-bottom: 25px;
     margin-top: 0;
     padding: 5px;
-    color: #D91E18!important;
+    color: #000!important;
     font-weight: bold;
+  
 }
 
 /*new*/p.row__presentation-paragraphe {
@@ -888,6 +892,10 @@ h4 {
     font-weight: bold;
     position: relative;
     z-index: 1000;
+}
+
+/*new*/ .paragraphe-encadre{
+    font-size: 18px;
 }
 
 /*new*/.bannière h1 {
@@ -973,6 +981,7 @@ h4 {
         margin: 0 120px;
     }
 }
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1202,16 +1211,22 @@ h4 {
     /*new*/.form-mobile {
         width: 75%;
     }
+    /*new*/p.citation__paragraphe {
+        font-size: 20px;
+        font-style: oblique;
+        font-weight: 400;
+        text-align: center;
+        display: flex;
+        margin: 0 10%;
+    }  
 }
+
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-    /*new*/p.citation-paragraphe {
-        margin: 0 360px 20px;
-       }
 }
 
 @media (max-width: 767px) {
