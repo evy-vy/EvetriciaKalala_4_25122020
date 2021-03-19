@@ -8,6 +8,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+    text-decoration: underline;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -327,7 +331,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
