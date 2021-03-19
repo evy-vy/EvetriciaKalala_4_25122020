@@ -331,7 +331,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 1.5rem;
+    font-size: 1em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
