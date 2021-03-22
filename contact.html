@@ -76,12 +76,12 @@
 									<h2 id="contactp2">Formulaire de contact</h2>
 									<form action="contact.php" method="POST" novalidate>
 										<div class="form-group">
-											<label for="name">Entrez vôtre nom :</label>
-											<input type ="text" id="name" name="user_name" required/>
+											<label for="name">Vôtre nom :</label>
+											<input type ="text" id="name" name="user_name" placeholder='Exemple: Dupond' required/>
 										</div>
 										<div class="form-group">
-											<label for="email">Saisissez votre adresse email :</label>
-											<input type="email" id="email" required />
+											<label for="email">Vôtre adresse email :</label>
+											<input type="email" id="email" placeholder="monEmail@gmail.com"required />
 										</div>
 										<div class="form-group">
 											<label for="survey">
@@ -98,7 +98,7 @@
 											<label for="message">
 												Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 											</label>
-											<textarea id="message" class="form-control" name= "user_message" rows="4" cols="50" required></textarea>
+											<textarea id="message" class="form-control" name= "user_message" rows="4" cols="50" placeholder="Décrivez-nous vôtre projet en quelques lignes."required></textarea>
 										</div> 
 										<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 											Envoyer
